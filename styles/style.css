@@ -18,8 +18,14 @@ body {
   );
 }
 
+.navbar,
+.navbar-expand-lg,
+.navbar-brand {
+  font-family: "Frank Ruhl Libre", serif;
+  font-size: 20px;
+}
 h1,
-h2 {
+h3 {
   text-align: center;
   padding: 10px;
   color: white;
@@ -27,6 +33,10 @@ h2 {
 }
 h2 {
   font-family: "Frank Ruhl Libre", serif;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  color: whitesmoke;
 }
 
 #image {
@@ -38,4 +48,21 @@ h2 {
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+#img-caption {
+  text-align: center;
+  font-family: "Frank Ruhl Libre", serif;
+  color: whitesmoke;
+  font-size: 18 px;
+}
+
+p {
+  font-family: "Frank Ruhl Libre", serif;
+  color: whitesmoke;
+  font-size: 18 px;
+  text-align: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 30px;
 }
