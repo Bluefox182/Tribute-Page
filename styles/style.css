@@ -1,10 +1,26 @@
-h1 {
-  text-align: center;
-  padding: 10px;
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #141316,
+    #1f1e23,
+    #292a30,
+    #33373f,
+    #3c444d,
+    #44505a,
+    #4c5c66,
+    #546973,
+    #5e7881,
+    #68878e,
+    #72969b,
+    #7ea6a7
+  );
 }
+
+h1,
 h2 {
   text-align: center;
   padding: 10px;
+  color: white;
 }
 
 #image {
