@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&family=Frank+Ruhl+Libre:wght@300;400;500&display=swap");
+
 body {
   background-image: linear-gradient(
     to right bottom,
@@ -21,6 +23,10 @@ h2 {
   text-align: center;
   padding: 10px;
   color: white;
+  font-family: "Fjalla One", sans-serif;
+}
+h2 {
+  font-family: "Frank Ruhl Libre", serif;
 }
 
 #image {
